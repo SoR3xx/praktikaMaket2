@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <section class="Sec1">
+    <section class="Sec1" id="Start">
         <header>
             <a href="#"><img src="assets/images/logo.svg" alt="logo"></a>
             <nav>
                 <ul>
-                    <a href="#"><li>Listings</li></a>
-                    <a href="#"><li>Newsroom</li></a>
-                    <a href="#"><li>Contact</li></a>
-                    <a href="#"><li>Our team</li></a>
+                    <a href="#Listings"><li>Listings</li></a>
+                    <a href="#Newsroom"><li>Newsroom</li></a>
+                    <a href="#Contact"><li>Contact</li></a>
+                    <a href="#OurTeam"><li>Our team</li></a>
                 </ul>
             </nav>
         </header>
@@ -26,7 +26,7 @@
             <img src="assets/images/ArrowDown.svg" alt="error">
         </div>
     </section>
-    <section class="Sec2">
+    <section class="Sec2" id="About">
         <div class="Sec2Div">
             <div class="LeftDivSec2">
                 <p>our goal</p>
@@ -45,7 +45,7 @@
             </div>
         </div>
     </section>
-    <section class="Sec3">
+    <section class="Sec3" id="Legal">
         <div class="Sec3Div">
             <span>
                 <p class="RequirementsSec3">Our requirements</p>
@@ -74,7 +74,7 @@
             </div>
         </div>
     </section>
-    <section class="Sec4">
+    <section class="Sec4" id="Listings">
         <div class="Sec4Div">
             <div>
                 <p class="LambourneRoad">Lambourne Road</p>
@@ -86,7 +86,7 @@
             </div> 
         </div>
     </section>
-    <section class="Sec5">
+    <section class="Sec5" id="Listings2">
         <div class="Sec5Div">
             <p class="currentListings">Current listings</p>
             <h2>What we have in store for you.</h2>
@@ -181,7 +181,7 @@
             </div>
         </div>
     </section>
-    <section class="Sec6">
+    <section class="Sec6" id="OurTeam">
         <div class="Sec6Div">
             <div class="Sec6DivOurPeople">
                 <p class="OurPeople">Our people</p>
@@ -240,7 +240,7 @@
             </div>
         </div>
     </section>
-    <section class="Sec7">
+    <section class="Sec7" id="Newsroom">
         <div class="Sec7Div">
             <p class="TopText">newsroom</p>
             <h2>Writing from Estate.</h2>
@@ -270,19 +270,61 @@
             </a>
         </div>
     </section>
-    <section class="Sec8">
+    <section class="Sec8" id="Contact">
         <div class="Sec8Div">
            <p class="SeenEnougnQuestion">Seen enough?</p>
            <h2>Get in touch with us today.</h2>
            <p class="MorbiSec8">Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
            <div>
                <a href="#" class="ButtonContact">Contact</a>
-               <a href="#">See listings</a>
+               <a href="#Listings2">See listings</a>
            </div> 
         </div>
     </section>
     <footer>
-
+        <img src="assets/images/LogoFooter.svg" alt="error" class="LogoFooter">
+        <div class="FooterDiv">
+            <ul class="firstUlFooter">
+                <p>pages</p>
+                <li><a href="#Start">Start</a></li>
+                <li><a href="#Listings">Listings</a></li>
+                <li><a href="#Listings2">Listings alt. 2</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Legal">Legal</a></li>
+            </ul>
+            <ul class="SecondUlFooter">
+                <p>company</p>
+                <li><a href="#About">About</a></li>
+                <li><a href="#OurTeam">Our team</a></li>
+                <li><a href="#Newsroom">Newsroom</a></li>
+            </ul>
+            <ul class="LastUlFooter">
+                <p>utility</p>
+                <li><a href="#">Instructions</a></li>
+                <li><a href="#">Style guide</a></li>
+                <li><a href="#">Licenses</a></li>
+                <li><a href="#">Changelog</a></li>
+                <li><a href="#">404</a></li>
+            </ul>
+            <div class="Subscription">
+                <p class="newsletterText">newsletter</p>
+                <p class="SubscriptionText">Subscribe to our (infrequent) newsletter where we share news about upcoming listings and projects.</p>
+                <div class="InputEmail">
+                    <input type="text" placeholder="Email" class="InputFooter">
+                    <a href="#">Submit</a>   
+                </div>
+            </div>
+        </div>
+        <div class="UnderUlAndInput">
+            <p>© Estate, LLC. All rights reserved. Powered by Webflow.</p>
+            <div>
+                <a href="#"><img src="assets/images/LinkedInLogo.svg" alt="error"></a>
+                <a href="#"><img src="assets/images/FacebookLogo.svg" alt="error"></a>
+                <a href="#"><img src="assets/images/InstagramLogo.svg" alt="error"></a>
+                <a href="#"><img src="assets/images/TwitterLogo.svg" alt="error"></a>   
+            </div>
+            
+        </div>
     </footer>
 </body>
 </html>
