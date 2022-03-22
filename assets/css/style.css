@@ -13,6 +13,7 @@ body{
     width: 1440px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -154,7 +155,7 @@ h1{
 .DivsContainerSec3 div{
     width: 300px;
     height: 169px;
-    padding: 21px 70px 0 21px;
+    padding: 21px 60px 0 21px;
 }
 .Sec3LeftImg{
     margin-right: 32px;
@@ -164,7 +165,7 @@ h1{
     flex-direction: column;
     justify-content: space-between;  
 }
-.FirstDivSec3{
+.FirstDivSec3:hover{
     border-radius: 10px;
     background-color: #fafafc;
     border: 1px solid #caccd1; 
@@ -194,6 +195,18 @@ h1{
     flex-direction: column;
     align-items: flex-end;
 }
+.Sec4Div:hover{
+    background-image: url(../images/BackgroundHouseOpacity.png);
+}
+.Sec4Div:hover a{
+    visibility: visible;
+}
+.Sec4Div:hover p{
+    visibility: visible;
+}
+.Sec4Div p{
+    visibility: hidden;
+}
 .Sec4Div a{
     display: flex;
     width: 112px;
@@ -202,6 +215,7 @@ h1{
     color:#45525B;
     font-size: 15px;
     font-weight: 400;
+    visibility: hidden;
 }
 .Sec4Div a img{
     width: 20px;
@@ -589,6 +603,11 @@ input::-webkit-input-placeholder{
     width: 24px;
     height: 24px;
     margin-left: 20px;
+}
+.UnderUlAndInput img:hover{
+    width: 30px;
+    height: 30px;
+    margin: -6px 6px 0 20px;
 }
 .UnderUlAndInput div{
     display: flex;
