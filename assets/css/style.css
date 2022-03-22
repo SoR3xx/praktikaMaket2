@@ -31,14 +31,20 @@ header img{
     width: 102px;
     height: 37px;
 }
-header ul li{
+header ul li a{
     font-size: 15px;
     color: #444444;
     list-style: none;
     display: inline;
     margin-right: 30px;
 }
-header ul li:hover{
+header ul li{
+    font-size: 15px;
+    color: #444444;
+    list-style: none;
+    display: inline;
+}
+header ul li a:hover{
     font-size: 16px;
 }
 header nav{
@@ -123,12 +129,12 @@ h1{
     flex-direction: column;
     background-color: white;
 }
-.Sec3Div span{
+.Sec3Div .SpanNew{
     align-self: center;
     text-align: center;
     margin-bottom: 30px;
 }
-.Sec3Div span h2{
+.Sec3Div .SpanNew h2{
     color: #45525B;
     font-size: 36px;
     font-weight: 400;
@@ -163,12 +169,16 @@ h1{
 .DivsContainerSec3{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;  
+    justify-content: space-between;
+      
 }
 .FirstDivSec3:hover{
     border-radius: 10px;
     background-color: #fafafc;
     border: 1px solid #caccd1; 
+}
+.FirstDivSec3{
+    border: 1px solid transparent;
 }
 .DivsContainerSec3 img{
     background-color: #45525B;
@@ -368,7 +378,7 @@ h1{
 .Sec6Div a{
     color: #45525B;
     font-size: 15px;
-    font-weight: 400px;
+    font-weight: 400;
     display: flex;
     margin-top: 20px;
 }
@@ -385,6 +395,16 @@ h1{
 }
 .Sec6DivOurPeople{
     margin-right: 64px;
+}
+.ManagingBroker{
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #6F7278;
+    text-transform: uppercase;
+}
+.AvaOrnText{
+    font-size: 16px;
+    color: #45525B;
 }
 /* -------------------------- Section 7 -------------------------- */
 .Sec7Div{
@@ -531,7 +551,7 @@ footer div{
 footer a{
     color: white;
 }
-footer ul p{
+footer ul .NameLiFooter{
     color: #ff8a63;
     font-size: 14px;
     font-weight: 400;
@@ -605,9 +625,7 @@ input::-webkit-input-placeholder{
     margin-left: 20px;
 }
 .UnderUlAndInput img:hover{
-    width: 30px;
-    height: 30px;
-    margin: -6px 6px 0 20px;
+    transform: scale(1.2);
 }
 .UnderUlAndInput div{
     display: flex;
